@@ -1,4 +1,9 @@
 // Create March 25th, 2018
+
+// Todo change library being from a vector to something else
+// Maybe linked list so I can delete from anywhere. I don't know..
+// Gonna go play minecraft
+
 #include <iostream>
 #include <vector>
 #include "Book.h"
@@ -106,7 +111,7 @@ void add_book_to_library(std::vector<Book> *books_in_library)
 
 void remove_book_from_library(std::vector<Book> *books_in_library)
 {
-  ;
+
 }
 
 void clr_scr()
