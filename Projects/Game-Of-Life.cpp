@@ -15,6 +15,7 @@ int main(int argc, char *argv[])
     {
       // A neater way of doing if else - less clumpy
       // 25% chance of being 1
+      // Interval [0-4[
       (rand()%4==1) ? board[y][x]='O' : board[y][x]=' ';
     }
   }
